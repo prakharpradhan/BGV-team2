@@ -1,0 +1,775 @@
+2019-08-16 11:49:10.488  INFO 10592 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 10592 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 11:49:10.494  INFO 10592 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 11:49:10.741  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-16 11:49:10.741  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-16 11:49:12.143  INFO 10592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 11:49:12.167  INFO 10592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-08-16 11:49:12.490  INFO 10592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ed7d6746] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:49:12.590  INFO 10592 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 11:49:12.618  INFO 10592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48e5a247] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:49:13.083  INFO 10592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-16 11:49:13.119  INFO 10592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 11:49:13.119  INFO 10592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 11:49:13.244  INFO 10592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 11:49:13.245  INFO 10592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2503 ms
+2019-08-16 11:49:13.456  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-16 11:49:13.829  INFO 10592 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 11:49:13.845  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-16 11:49:13.983  INFO 10592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 11:49:14.034  INFO 10592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-16 11:49:14.035  INFO 10592 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-16 11:49:14.170  INFO 10592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-16 11:49:14.409  INFO 10592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 11:49:14.646  INFO 10592 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@74919c32
+2019-08-16 11:49:14.646  INFO 10592 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@74919c32
+2019-08-16 11:49:14.646  INFO 10592 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@7ee2259f
+2019-08-16 11:49:14.647  INFO 10592 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@7ee2259f
+2019-08-16 11:49:15.125  INFO 10592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:49:15.347  INFO 10592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:49:15.381  WARN 10592 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 11:49:15.576  INFO 10592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 11:49:15.656 ERROR 10592 --- [restartedMain] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at com.cg.backgroundverification.BackgroundverificationApplication.main(BackgroundverificationApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	... 19 common frames omitted
+
+2019-08-16 11:49:15.662  INFO 10592 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-08-16 11:49:15.671  INFO 10592 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-16 11:49:15.676 ERROR 10592 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-08-16 11:49:15.681  INFO 10592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:49:15.681  INFO 10592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:49:15.684  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-08-16 11:49:15.694  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-08-16 11:49:45.868  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 11:49:45.870  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 11:49:45.914  INFO 9296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-16 11:49:45.914  INFO 9296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-16 11:49:46.517  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 11:49:46.539  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-08-16 11:49:46.827  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:49:46.857  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 11:49:46.886  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:49:47.174  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 11:49:47.196  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 11:49:47.196  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 11:49:47.309  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 11:49:47.309  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1395 ms
+2019-08-16 11:49:47.461  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-16 11:49:47.551  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 11:49:47.555  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-16 11:49:47.622  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 11:49:47.774  INFO 9296 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-16 11:49:47.777  INFO 9296 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-16 11:49:47.898  INFO 9296 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-16 11:49:48.010  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 11:49:48.094  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:49:48.094  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:49:48.095  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:49:48.095  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:49:48.541  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:49:48.765  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:49:48.800  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 11:49:48.995  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 11:49:49.056  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 11:49:49.060  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 3.475 seconds (JVM running for 4.157)
+2019-08-16 11:51:40.159  INFO 9296 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 11:51:40.160  INFO 9296 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-16 11:51:40.166  INFO 9296 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-08-16 11:51:41.287  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:41.311  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:42.643  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:42.839  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:42.984  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:43.136  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:43.530  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:51:59.333  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:51:59.351  INFO 9296 --- [http-nio-8081-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-08-16 11:52:47.033  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:52:47.086  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document is already Verified]
+2019-08-16 11:53:38.471  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:53:38.479  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:53:44.782  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:53:44.814  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document is already Verified]
+2019-08-16 11:53:44.821  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:53:44.823  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:53:53.051  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:53:53.063  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:53:53.064  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:53:53.086  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document is already Verified]
+2019-08-16 11:53:54.300  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:54:47.445  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:54:53.540  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:54:53.555  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:54:53.556  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:54:53.587  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document is already Verified]
+2019-08-16 11:55:27.784  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:55:32.846  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:55:32.860  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:55:32.861  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:55:33.193  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 11:55:34.256  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:55:50.910  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:55:50.931  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:55:50.932  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:55:50.962  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 11:55:52.476  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:56:03.599  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:56:03.618  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:56:03.619  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:56:03.705  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 11:56:09.199  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:56:09.213  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:56:09.214  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:56:09.223  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 11:56:22.803  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:56:22.810  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:56:26.867  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 11:56:28.793  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered downloadFile method
+2019-08-16 11:56:32.388  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:56:40.182  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:56:40.197  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:56:43.171  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:56:43.259  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:56:47.519  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:56:52.450  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:56:52.464  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:00.983  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered downloadFile method
+2019-08-16 11:57:04.503  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:06.307  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:06.320  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:07.485  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:07.578  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:07.674  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:07.681  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:07.829  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:07.837  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:10.125  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:10.222  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:12.484  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:12.499  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:12.665  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:12.675  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:12.813  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:12.820  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:12.964  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:57:12.974  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:15.050  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:57:26.360  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:57:26.365  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:57:27.949  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:57:36.897  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:57:36.921  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:57:36.924  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:57:36.926  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already rejected and reuploading not allowed]
+2019-08-16 11:57:48.630  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:57:48.652  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:57:48.654  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:57:48.660  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already rejected and reuploading not allowed]
+2019-08-16 11:57:53.687  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:57:53.710  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:57:53.711  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:57:53.713  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already rejected and reuploading not allowed]
+2019-08-16 11:57:56.889  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 11:58:05.645  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 11:58:05.662  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 11:58:05.663  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 11:58:05.670  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already rejected and reuploading not allowed]
+2019-08-16 11:58:21.511  INFO 9296 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:58:21.512  INFO 9296 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:58:21.517  INFO 9296 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-08-16 11:58:21.572  INFO 9296 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-08-16 11:58:21.825  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 11:58:21.826  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 11:58:22.035  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 11:58:22.041  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-08-16 11:58:22.082  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:58:22.084  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 11:58:22.091  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:58:22.235  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 11:58:22.237  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 11:58:22.237  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 11:58:22.267  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 11:58:22.267  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 439 ms
+2019-08-16 11:58:22.318  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-08-16 11:58:22.606  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 11:58:22.609  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-08-16 11:58:22.626  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 11:58:22.664  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 11:58:22.677  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:58:22.677  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:58:22.677  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:58:22.677  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:58:22.734  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:58:22.836  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:58:22.842  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 11:58:22.937  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 11:58:22.963  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 11:58:22.964  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 1.165 seconds (JVM running for 517.998)
+2019-08-16 11:58:22.968  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 11:58:48.814  INFO 9296 --- [Thread-63] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:58:48.816  INFO 9296 --- [Thread-63] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:58:48.816  INFO 9296 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-08-16 11:58:48.829  INFO 9296 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-08-16 11:58:49.059  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 11:58:49.060  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 11:58:49.250  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 11:58:49.256  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-08-16 11:58:49.292  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:58:49.293  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 11:58:49.300  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:58:49.451  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 11:58:49.451  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 11:58:49.452  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 11:58:49.480  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 11:58:49.480  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 419 ms
+2019-08-16 11:58:49.525  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-08-16 11:58:49.548  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 11:58:49.550  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-08-16 11:58:49.557  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 11:58:49.569  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 11:58:49.577  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:58:49.577  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:58:49.577  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:58:49.577  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:58:49.622  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:58:49.717  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:58:49.724  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 11:58:49.831  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 11:58:49.854  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 11:58:49.854  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 0.816 seconds (JVM running for 544.885)
+2019-08-16 11:58:49.857  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 11:59:03.484  INFO 9296 --- [Thread-72] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:59:03.485  INFO 9296 --- [Thread-72] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:59:03.486  INFO 9296 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-08-16 11:59:03.495  INFO 9296 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-08-16 11:59:03.731  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 11:59:03.732  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 11:59:03.914  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 11:59:03.920  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-08-16 11:59:03.956  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:59:03.957  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 11:59:03.964  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 11:59:04.102  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 11:59:04.104  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 11:59:04.104  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 11:59:04.130  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 11:59:04.130  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 397 ms
+2019-08-16 11:59:04.182  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-08-16 11:59:04.205  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 11:59:04.206  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-08-16 11:59:04.213  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 11:59:04.228  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 11:59:04.236  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:59:04.236  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 11:59:04.236  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:59:04.236  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 11:59:04.276  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 11:59:04.373  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 11:59:04.379  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 11:59:04.474  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 11:59:04.499  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 11:59:04.499  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 0.79 seconds (JVM running for 559.527)
+2019-08-16 11:59:04.501  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 11:59:19.999  INFO 9296 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 11:59:20.001  INFO 9296 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-16 11:59:20.023  INFO 9296 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-08-16 11:59:20.030  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 11:59:20.043  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 11:59:23.738  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 11:59:23.748  INFO 9296 --- [http-nio-8081-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-08-16 11:59:26.409  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:59:26.433  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:59:30.133  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 11:59:30.224  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:59:31.104  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:59:31.117  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:59:38.787  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:59:41.274  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:59:41.362  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 11:59:48.903  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 11:59:52.977  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 11:59:53.067  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:00:01.214  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:00:01.227  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:00:13.177  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:00:13.180  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:00:16.739  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:00:18.987  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:00:19.000  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:19.822  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:04:19.826  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:04:24.073  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:04:26.699  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:29.860  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:29.948  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:30.662  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:30.675  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:30.861  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:30.869  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:31.013  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:31.022  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:31.278  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:31.288  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:31.448  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:31.453  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:31.613  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:31.626  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:31.751  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:31.761  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:32.057  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:32.218  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:32.233  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:32.243  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:04:32.365  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:04:32.377  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:05:01.627  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:05:01.715  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:05:07.772  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:05:07.865  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:06:25.484  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:06:26.404  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:06:26.417  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:06:30.059  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:06:30.069  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:06:33.556  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:06:33.569  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:06:34.743  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:06:34.757  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:07:10.558  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:07:13.516  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:07:13.528  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:07:17.071  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:07:17.083  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:07:24.955  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:07:25.047  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:09:00.494  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:09:03.000  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:09:03.087  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:09:04.572  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:09:04.587  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:09:12.146  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:09:12.243  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:09:15.091  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:09:15.183  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:09:34.094  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:09:34.099  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:09:40.619  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:09:40.620  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:09:40.621  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:09:40.705  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:09:41.714  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:09:45.085  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:09:50.557  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:09:50.593  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:09:50.598  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:09:50.599  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:09:58.643  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:09:58.648  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:10:02.277  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:10:04.741  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered downloadFile method
+2019-08-16 12:10:07.163  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:10:12.075  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:10:19.580  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:10:19.670  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:10:23.667  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:10:23.676  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:10:34.581  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:10:34.587  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:10:38.803  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:10:38.828  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:10:38.829  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:10:38.844  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:10:45.093  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:10:45.111  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:10:45.113  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:10:45.113  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:10:50.526  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:10:50.545  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:10:50.546  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:10:50.547  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:10:52.494  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:20:30.044  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:20:30.049  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:20:44.523  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:23:46.526  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:23:46.536  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:23:52.649  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:23:55.228  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:23:57.209  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:24:01.869  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:24:02.959  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:24:04.498  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:24:48.807  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:24:48.812  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:24:51.851  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:25:14.799  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:25:14.804  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:25:33.971  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:25:33.975  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:25:50.072  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:25:50.075  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:26:06.347  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:26:06.352  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:26:15.145  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:26:30.941  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:26:30.945  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:26:32.759  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:26:46.766  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:26:46.771  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:26:49.704  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:27:04.115  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:27:04.120  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:27:06.154  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:27:21.999  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:27:22.004  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:27:23.312  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:27:36.985  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:27:36.992  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:27:38.538  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:27:52.881  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:28:45.440  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:28:45.444  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:28:46.841  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:29:18.043  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:29:18.049  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:29:19.477  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:29:56.699  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:29:56.703  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:29:58.353  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:30:22.291  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:30:22.295  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:30:23.881  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:30:46.302  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:30:46.304  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:30:47.692  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:31:09.028  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:31:09.031  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:31:10.560  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:31:26.978  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:31:26.982  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:31:28.466  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:31:40.233  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:31:40.238  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:31:41.681  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:38:04.899  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:38:04.905  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:38:54.385  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:38:54.390  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:39:44.099  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:39:44.099  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:39:44.100  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:39:44.133  WARN 9296 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:41:44.627  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:41:44.631  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:41:51.266  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:41:51.292  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:41:51.293  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:41:51.329  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:42:43.743  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:42:43.747  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:42:52.727  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:42:52.740  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:42:52.741  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:42:52.762  WARN 9296 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:43:15.511  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:43:15.516  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:43:22.392  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:43:22.400  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:43:22.400  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:43:22.449  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:46:22.417  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:46:22.420  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:48:03.386  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:48:03.389  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:48:10.443  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:48:10.464  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:48:10.465  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:48:10.525  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:48:23.530  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:48:23.547  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:48:23.548  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:48:23.572  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 12:49:09.999  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:49:10.003  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:49:16.666  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:49:16.676  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:49:16.677  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:49:16.992  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:49:28.478  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:49:28.501  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:49:28.502  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:49:28.532  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 12:50:01.283  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:50:01.285  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:50:07.661  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:50:07.665  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:50:07.666  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:50:07.702  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 12:50:09.320  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:50:24.537  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:50:24.542  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:50:26.962  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:50:34.660  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:50:34.674  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:50:34.675  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:50:35.122  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:50:45.133  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:50:45.147  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:50:45.148  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:50:45.151  WARN 9296 --- [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 12:52:06.599  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:52:06.603  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:52:13.589  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:52:21.412  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2019-08-16 12:53:13.273  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:53:13.278  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:53:15.582  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:53:43.654  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:53:43.656  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:53:51.905  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:53:58.105  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered downloadFile method
+2019-08-16 12:54:01.549  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:54:06.610  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:54:06.640  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:54:18.256  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 12:54:18.267  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:54:38.100  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:54:38.127  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:54:38.128  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:54:38.154  WARN 9296 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:55:32.350  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:55:32.355  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:55:39.526  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:55:43.756  WARN 9296 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 12:56:00.256  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:56:00.259  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:56:12.143  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:56:12.166  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:56:12.167  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:56:12.189  WARN 9296 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:56:33.770  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:56:43.007  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:56:43.012  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:56:44.473  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:56:51.939  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:56:51.958  WARN 9296 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:56:51.964  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:56:51.965  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:56:56.443  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:57:06.832  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:57:06.849  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 12:57:06.851  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:57:06.851  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:57:34.994  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:57:34.998  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:57:38.593  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:57:44.212  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:57:44.234  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:57:44.235  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:57:44.266  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:57:52.684  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:57:52.695  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:57:52.695  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:57:52.746  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Out of handle Document Method
+2019-08-16 12:58:16.051  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:58:16.109  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:58:17.891  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:59:05.668  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 12:59:05.692  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 12:59:05.692  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 12:59:05.711  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This document is already uploaded please wait for its verification]
+2019-08-16 12:59:28.467  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 12:59:28.473  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 12:59:34.661  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 12:59:39.946  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 12:59:43.797  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered downloadFile method
+2019-08-16 12:59:46.860  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:59:51.351  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 12:59:51.358  WARN 9296 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 13:01:07.299  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered approveStatus method
+2019-08-16 13:01:07.335  WARN 9296 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: This Document is already verified]
+2019-08-16 13:01:13.266  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 13:01:26.645  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:01:26.650  INFO 9296 --- [http-nio-8081-exec-10] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:01:29.387  INFO 9296 --- [http-nio-8081-exec-8] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 13:01:42.492  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:01:42.519  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:01:46.935  INFO 9296 --- [http-nio-8081-exec-1] c.c.b.c.BackgroundVerificationController : Entered searchById method
+2019-08-16 13:01:50.722  INFO 9296 --- [http-nio-8081-exec-3] c.c.b.c.BackgroundVerificationController : Entered rejectStatus method
+2019-08-16 13:03:17.126  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:03:17.129  INFO 9296 --- [http-nio-8081-exec-2] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:03:32.700  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:03:32.705  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:04:20.386  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:04:20.391  INFO 9296 --- [http-nio-8081-exec-6] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:17:34.967  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Entered login method
+2019-08-16 13:17:34.972  INFO 9296 --- [http-nio-8081-exec-7] c.c.b.c.BackgroundVerificationController : Out Of Login Method
+2019-08-16 13:17:37.379  INFO 9296 --- [http-nio-8081-exec-5] c.c.b.c.BackgroundVerificationController : Entered viewStatus method
+2019-08-16 13:17:45.261  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Entered Handle Document Upload method
+2019-08-16 13:17:45.262  INFO 9296 --- [http-nio-8081-exec-4] c.c.b.c.BackgroundVerificationController : Out of Handle Document Upload method
+2019-08-16 13:17:45.270  INFO 9296 --- [http-nio-8081-exec-9] c.c.b.c.BackgroundVerificationController : Entered handle Document Method 
+2019-08-16 13:17:45.304  WARN 9296 --- [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cg.backgroundverification.exceptions.BackgroundVerificationException: Document already verified and reuploading not allowed]
+2019-08-16 13:18:26.935  INFO 9296 --- [Thread-81] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:18:26.981  INFO 9296 --- [Thread-81] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:18:27.244  INFO 9296 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-08-16 13:18:27.264  INFO 9296 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-08-16 13:18:30.522  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 13:18:30.523  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 13:18:30.934  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 13:18:30.940  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-08-16 13:18:30.981  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:18:30.983  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 13:18:30.990  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:18:31.172  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 13:18:31.173  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 13:18:31.173  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 13:18:31.219  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 13:18:31.219  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 691 ms
+2019-08-16 13:18:31.265  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-08-16 13:18:31.322  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-5 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 13:18:31.324  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-08-16 13:18:31.332  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 13:18:31.343  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 13:18:31.409  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 13:18:31.409  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 13:18:31.409  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 13:18:31.409  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 13:18:31.507  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:18:31.616  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:18:31.623  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 13:18:31.735  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 13:18:31.759  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 13:18:31.760  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 1.333 seconds (JVM running for 5326.202)
+2019-08-16 13:18:31.763  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 13:18:47.469  INFO 9296 --- [Thread-255] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:18:47.472  INFO 9296 --- [Thread-255] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:18:47.473  INFO 9296 --- [Thread-255] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-08-16 13:18:47.493  INFO 9296 --- [Thread-255] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-08-16 13:18:47.771  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 13:18:47.771  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 13:18:47.953  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 13:18:47.959  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-08-16 13:18:47.992  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:18:47.994  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 13:18:48.025  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:18:48.172  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 13:18:48.173  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 13:18:48.173  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 13:18:48.197  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 13:18:48.197  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 424 ms
+2019-08-16 13:18:48.239  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-08-16 13:18:48.263  INFO 9296 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-6 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-08-16 13:18:48.264  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-08-16 13:18:48.270  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 13:18:48.292  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-08-16 13:18:48.299  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 13:18:48.299  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@17c3e7e6
+2019-08-16 13:18:48.299  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 13:18:48.299  INFO 9296 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@71e0b67e
+2019-08-16 13:18:48.339  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:18:48.427  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:18:48.433  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 13:18:48.523  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 13:18:48.549  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 13:18:48.549  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 0.804 seconds (JVM running for 5342.989)
+2019-08-16 13:18:48.552  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 13:19:19.551  INFO 9296 --- [Thread-264] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:19:19.554  INFO 9296 --- [Thread-264] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:19:19.556  INFO 9296 --- [Thread-264] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-08-16 13:19:19.578  INFO 9296 --- [Thread-264] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-08-16 13:19:19.765  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Starting BackgroundverificationApplication on DIN13003139 with PID 9296 (D:\Users\trainee\Downloads\backgroundverification\target\classes started by trainee in D:\Users\trainee\Downloads\backgroundverification)
+2019-08-16 13:19:19.765  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : No active profile set, falling back to default profiles: default
+2019-08-16 13:19:19.956  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 13:19:19.962  INFO 9296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-08-16 13:19:19.997  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffe435da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:19:19.998  INFO 9296 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-16 13:19:20.006  INFO 9296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b4c70db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 13:19:20.165  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-16 13:19:20.165  INFO 9296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 13:19:20.166  INFO 9296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 13:19:20.208  INFO 9296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 13:19:20.208  INFO 9296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 442 ms
+2019-08-16 13:19:20.250  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2019-08-16 13:19:26.454  INFO 9296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2019-08-16 13:19:26.473  INFO 9296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-16 13:19:26.563  INFO 9296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-16 13:19:26.672  INFO 9296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:19:26.769  INFO 9296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:19:26.774  WARN 9296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-16 13:19:26.851  INFO 9296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-16 13:19:26.872  INFO 9296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-16 13:19:26.873  INFO 9296 --- [restartedMain] c.c.b.BackgroundverificationApplication  : Started BackgroundverificationApplication in 7.128 seconds (JVM running for 5381.308)
+2019-08-16 13:19:26.875  INFO 9296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-08-16 13:19:39.031  INFO 9296 --- [RMI TCP Connection(127)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-16 13:19:39.038  INFO 9296 --- [RMI TCP Connection(127)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-16 13:19:39.038  INFO 9296 --- [RMI TCP Connection(127)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-16 13:19:39.039  INFO 9296 --- [RMI TCP Connection(127)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2019-08-16 13:19:39.631  INFO 9296 --- [RMI TCP Connection(127)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.

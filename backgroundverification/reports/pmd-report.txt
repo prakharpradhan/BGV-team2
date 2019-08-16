@@ -1,0 +1,562 @@
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:7:	Header comments are required
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:7:	Header comments are required
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/BackgroundverificationApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:34:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:34:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:37:	Field comments are required
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:37:	Field comments are required
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:39:	Field comments are required
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:39:	Field comments are required
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:48:	The String literal "application/json" appears 6 times in this file; the first occurrence is on line 48
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:48:	The String literal "application/json" appears 6 times in this file; the first occurrence is on line 48
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:49:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:49:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:51:	Found 'DD'-anomaly for variable 'dto' (lines '51'-'52').
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:51:	Found 'DD'-anomaly for variable 'dto' (lines '51'-'52').
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:62:	Parameter 'file' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:62:	Parameter 'file' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:74:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:74:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:74:	Parameter 'employeeDocumentDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:74:	Parameter 'employeeDocumentDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:77:	Local variable 'uploadMessage' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:77:	Local variable 'uploadMessage' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:78:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:78:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:78:	Local variable 'strings' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:78:	Local variable 'strings' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:88:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:88:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:98:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:98:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:98:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:98:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:108:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:108:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:120:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:120:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:120:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:120:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:121:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:121:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:121:	Local variable 'employeeDocumentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:121:	Local variable 'employeeDocumentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:133:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:133:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:133:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:133:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:142:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:142:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:142:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/controller/BackgroundVerificationController.java:142:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:8:	Header comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:8:	Header comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:10:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:10:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:10:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:10:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:14:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:14:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:16:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:16:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:18:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:18:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:18:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:18:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:20:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:20:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:20:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:20:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:22:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:22:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDao.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:30:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:30:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:33:	Field comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:33:	Field comments are required
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Found 'UR'-anomaly for variable 'document' (lines '37'-'44').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Found 'UR'-anomaly for variable 'document' (lines '37'-'44').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Parameter 'employeeDocumentDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	Parameter 'employeeDocumentDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	The method 'uploadDocument(EmployeeDocumentDTO)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:37:	The method 'uploadDocument(EmployeeDocumentDTO)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:38:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:38:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:39:	The String literal "select emp from EmployeeDocumentDTO emp where emp.empId=:id" appears 4 times in this file; the first occurrence is on line 39
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:39:	The String literal "select emp from EmployeeDocumentDTO emp where emp.empId=:id" appears 4 times in this file; the first occurrence is on line 39
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:41:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:41:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:41:	Found 'DD'-anomaly for variable 'documentDTO' (lines '41'-'42').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:41:	Found 'DD'-anomaly for variable 'documentDTO' (lines '41'-'42').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:43:	Local variable 'document' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:43:	Local variable 'document' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:56:	Found 'UR'-anomaly for variable 'document' (lines '56'-'68').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:56:	Found 'UR'-anomaly for variable 'document' (lines '56'-'68').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:56:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:56:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:57:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:57:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:59:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:60:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:60:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:60:	Found 'DD'-anomaly for variable 'documentDTO' (lines '60'-'62').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:60:	Found 'DD'-anomaly for variable 'documentDTO' (lines '60'-'62').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:63:	Avoid empty catch blocks
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:63:	Avoid empty catch blocks
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:66:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:66:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:66:	Local variable 'status' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:66:	Local variable 'status' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:67:	Local variable 'document' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:67:	Local variable 'document' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:68:	Avoid using Literals in Conditional Statements
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:68:	Avoid using Literals in Conditional Statements
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:68:	Number 51012 should separate every third digit with an underscore
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:68:	Number 51012 should separate every third digit with an underscore
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:71:	Avoid using Literals in Conditional Statements
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:71:	Avoid using Literals in Conditional Statements
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:71:	Number 42012 should separate every third digit with an underscore
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:71:	Number 42012 should separate every third digit with an underscore
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:84:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:84:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:84:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:84:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:85:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:85:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:88:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:88:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:88:	Found 'DD'-anomaly for variable 'documentDTO' (lines '88'-'90').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:88:	Found 'DD'-anomaly for variable 'documentDTO' (lines '88'-'90').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:101:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:101:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:102:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:102:	Local variable 'query' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:105:	Found 'DD'-anomaly for variable 'loginDto' (lines '105'-'107').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:105:	Found 'DD'-anomaly for variable 'loginDto' (lines '105'-'107').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:107:	Found 'DU'-anomaly for variable 'loginDto' (lines '107'-'123').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:107:	Found 'DU'-anomaly for variable 'loginDto' (lines '107'-'123').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:109:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:109:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:112:	Local variable 'query2' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:112:	Local variable 'query2' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:115:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:115:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:130:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:130:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:130:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:130:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:132:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:132:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:143:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:143:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:143:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:143:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:144:	Found 'DU'-anomaly for variable 'now' (lines '144'-'153').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:144:	Found 'DU'-anomaly for variable 'now' (lines '144'-'153').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:144:	Local variable 'now' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:144:	Local variable 'now' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:145:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:145:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:158:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:158:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:158:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:158:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:159:	Found 'DU'-anomaly for variable 'now' (lines '159'-'168').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:159:	Found 'DU'-anomaly for variable 'now' (lines '159'-'168').
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:159:	Local variable 'now' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:159:	Local variable 'now' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:161:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:161:	Local variable 'documentDTO' could be declared final
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:164:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/EmployeeDocumentDaoImpl.java:164:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:6:	Header comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:6:	Header comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:7:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:7:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:7:	Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/main/java/com/cg/backgroundverification/dao/LoginDao.java:7:	Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:24:	Field comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:24:	Field comments are required
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:30:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:30:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:32:	Local variable 'dto' could be declared final
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:32:	Local variable 'dto' could be declared final
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:34:	Found 'DD'-anomaly for variable 'flag' (lines '34'-'37').
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:34:	Found 'DD'-anomaly for variable 'flag' (lines '34'-'37').
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:34:	Found 'DU'-anomaly for variable 'flag' (lines '34'-'50').
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:34:	Found 'DU'-anomaly for variable 'flag' (lines '34'-'50').
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:35:	Avoid if (x != y) ..; else ..;
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:35:	Avoid if (x != y) ..; else ..;
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:45:	Avoid unnecessary comparisons in boolean expressions
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:45:	Avoid unnecessary comparisons in boolean expressions
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:49:	Avoid using if...else statements without curly braces
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:49:	Avoid using if...else statements without curly braces
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:49:	This statement should have braces
+src/main/java/com/cg/backgroundverification/dao/LoginDaoImpl.java:49:	This statement should have braces
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:25:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:25:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:25:	The class 'EmployeeDocumentDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:25:	The class 'EmployeeDocumentDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=10)
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:30:	The String literal "docid" appears 4 times in this file; the first occurrence is on line 30
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:30:	The String literal "docid" appears 4 times in this file; the first occurrence is on line 30
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:33:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:33:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:44:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:44:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:47:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:47:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:50:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:50:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:55:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:55:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:61:	Parameter 'verificationDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:61:	Parameter 'verificationDTO' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:69:	Parameter 'docId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:69:	Parameter 'docId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:74:	Returning 'data' may expose an internal array.
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:74:	Returning 'data' may expose an internal array.
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:77:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:77:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:77:	The user-supplied array 'data' is stored directly.
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:77:	The user-supplied array 'data' is stored directly.
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:85:	Parameter 'docTypeId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:85:	Parameter 'docTypeId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:93:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/EmployeeDocumentDTO.java:93:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:14:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:14:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:14:	The class 'LoginDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:14:	The class 'LoginDto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:17:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:17:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:17:	To avoid mistakes add a comment at the beginning of the empId field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:17:	To avoid mistakes add a comment at the beginning of the empId field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:18:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:18:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:19:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:19:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:19:	To avoid mistakes add a comment at the beginning of the password field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:19:	To avoid mistakes add a comment at the beginning of the password field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:21:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:21:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:21:	To avoid mistakes add a comment at the beginning of the roleId field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:21:	To avoid mistakes add a comment at the beginning of the roleId field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:23:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:23:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:23:	To avoid mistakes add a comment at the beginning of the empName field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:23:	To avoid mistakes add a comment at the beginning of the empName field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:28:	Parameter 'empName' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:28:	Parameter 'empName' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:42:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:42:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:50:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:50:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:58:	Parameter 'roleId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/LoginDto.java:58:	Parameter 'roleId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:20:	The class 'VerificationDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:20:	The class 'VerificationDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:26:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:26:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:29:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:29:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:32:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:32:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:35:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:35:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Avoid unused private fields such as 'employeeDocumentDTO'.
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Avoid unused private fields such as 'employeeDocumentDTO'.
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:38:	Field comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:40:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:40:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestEndDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestEndDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestStartDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'requestStartDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:47:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:61:	Parameter 'requestId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:61:	Parameter 'requestId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:69:	Parameter 'requestStartDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:69:	Parameter 'requestStartDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:77:	Parameter 'requestEndDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:77:	Parameter 'requestEndDate' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:85:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/dto/VerificationDTO.java:85:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/BackgroundVerificationException.java:13:	Parameter 'message1' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/BackgroundVerificationException.java:13:	Parameter 'message1' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/BackgroundVerificationException.java:13:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/BackgroundVerificationException.java:13:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:5:	Header comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:5:	Header comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:5:	The class 'ErrorDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:5:	The class 'ErrorDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:6:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:6:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:7:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:7:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:8:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:8:	Field comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'timeStamp' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'timeStamp' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:10:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:21:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:21:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:29:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:29:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:37:	Parameter 'timeStamp' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ErrorDetails.java:37:	Parameter 'timeStamp' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:17:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:17:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Parameter 'exception' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:19:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:20:	Local variable 'details' could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:20:	Local variable 'details' could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Avoid variables with short names like e
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Avoid variables with short names like e
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Parameter 'e' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Parameter 'e' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:25:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:26:	Local variable 'errorDetails' could be declared final
+src/main/java/com/cg/backgroundverification/exceptions/ExceptionHandler.java:26:	Local variable 'errorDetails' could be declared final
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:10:	Header comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:10:	Header comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:12:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:14:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:14:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:14:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:16:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:16:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:18:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:18:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:18:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:18:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:20:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:20:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:22:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:22:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:22:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:24:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:24:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:24:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:24:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:26:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:26:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:26:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/EmployeeService.java:26:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/LoginService.java:6:	Header comments are required
+src/main/java/com/cg/backgroundverification/service/LoginService.java:6:	Header comments are required
+src/main/java/com/cg/backgroundverification/service/LoginService.java:7:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/LoginService.java:7:	Public method and constructor comments are required
+src/main/java/com/cg/backgroundverification/service/LoginService.java:7:	Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/main/java/com/cg/backgroundverification/service/LoginService.java:7:	Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:21:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Avoid excessively long variable names like employeeDocumentDao
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Avoid excessively long variable names like employeeDocumentDao
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Avoid excessively long variable names like employeeDocumentDTO
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	To avoid mistakes add a comment at the beginning of the employeeDocumentDTO field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	To avoid mistakes add a comment at the beginning of the employeeDocumentDTO field if you want a default access modifier
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:25:	Use explicit scoping instead of the default package private level
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:29:	Parameter 'file' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:29:	Parameter 'file' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:29:	The method 'storeDocument(MultipartFile)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:29:	The method 'storeDocument(MultipartFile)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:31:	Local variable 'fileName' could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:31:	Local variable 'fileName' could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:37:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:37:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:44:	Parameter 'employeeDocumen' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:44:	Parameter 'employeeDocumen' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:55:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:55:	Parameter 'empId' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:63:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:63:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:63:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:63:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:71:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:71:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	The method 'getDocument(int)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:78:	The method 'getDocument(int)' is missing an @Override annotation.
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:87:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:87:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:87:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:87:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:96:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:96:	Avoid variables with short names like id
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:96:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/EmployeeServiceImpl.java:96:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:18:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:18:	Each class should declare at least one constructor
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:20:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:20:	Field comments are required
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:26:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:26:	Parameter 'loginDto' is not assigned and could be declared final
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:28:	Found 'DD'-anomaly for variable 'dto' (lines '28'-'29').
+src/main/java/com/cg/backgroundverification/service/impl/LoginServiceImpl.java:28:	Found 'DD'-anomaly for variable 'dto' (lines '28'-'29').
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:7:	Header comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:7:	Header comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:7:	The utility class name 'ExceptionMessages' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:7:	The utility class name 'ExceptionMessages' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:9:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:9:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:10:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:10:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:11:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:11:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:12:	Avoid excessively long variable names like DOCUMENTALREADYEXISTS
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:12:	Avoid excessively long variable names like DOCUMENTALREADYEXISTS
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:12:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:12:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:13:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:13:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:14:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:14:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:15:	Field comments are required
+src/main/java/com/cg/backgroundverification/utility/ExceptionMessages.java:15:	Field comments are required
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:10:	Header comments are required
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:10:	Header comments are required
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	Document empty method body
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	Document empty method body
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	Public method and constructor comments are required
+src/test/java/com/cg/backgroundverification/BackgroundverificationApplicationTests.java:13:	Public method and constructor comments are required
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:1:	Package name contains upper case characters
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:1:	Package name contains upper case characters
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:3:	Each class should declare at least one constructor
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:3:	Each class should declare at least one constructor
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:3:	Header comments are required
+src/test/java/com/cg/backgroundverification/serviceImpl/test/BgvImplTest.java:3:	Header comments are required
