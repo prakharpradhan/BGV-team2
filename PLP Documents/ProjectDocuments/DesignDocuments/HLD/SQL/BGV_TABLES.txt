@@ -1,0 +1,104 @@
+//auto generated requestId
+
+create sequence reqid
+start with 40401
+increment by 1
+nocycle;
+
+
+
+//auto generated docId
+
+create sequence docid
+start with 80801
+increment by 1
+nocycle;
+
+
+
+//verification Table
+
+ create table verificationDetails(requestid number(6) primary key,requestStartDate date,requestEndDate date,status varchar2(10));
+
+
+
+//documentMaster table
+
+create table documentMaster(docTypeId number(5) primary key,docCatgeory varchar2(20));
+
+ //document Master table inserted values
+
+insert into documentMaster values(42012,'addressProof');
+
+insert into documentMaster values(51012,'educationProof');
+
+ select * from documentmaster;
+
+ DOCTYPEID DOCCATGEORY
+---------- --------------------
+     42012 addressProof
+     51012 educationProof
+
+
+
+
+//role Master table
+
+create table roleMaster(roleId number(5) primary key,roleName varchar2(20));
+
+//role MAster table inserted values
+
+insert into roleMaster values(18018,'employee');
+
+insert into roleMaster values(54045,'BGV_Team');
+
+ select * from rolemaster;
+
+    ROLEID ROLENAME
+---------- --------------------
+     18018 employee
+     54045 BGV_Team
+
+
+
+
+//login table
+
+ create table login(empid number(5) primary key,empName varchar2(30),password varchar2(10),roleid number(5),CONSTRAINT fk_roleid
+     FOREIGN KEY (roleid)
+     REFERENCES rolemaster(roleid));
+
+//login inserted values
+
+insert into login values(51678,'prakhar','pradhan',18018);
+
+insert into login values(51789,'vishal','singhania',18018);
+
+insert into login values(51768,'samannita','sam123',18018);
+
+insert into login values(61789,'samannita','sam123',54045);
+
+insert into login values(61453,'surrendran','surren345',54045)
+
+insert into login values(61425,'janaki','janu98',54045);
+
+
+
+select * from login;
+
+EMPID EMPNAME                        PASSWORD       ROLEID
+----- ------------------------------ ---------- ----------
+51678 prakhar                        pradhan         18018
+51789 vishal                         singhania       18018
+51768 samannita                      sam123          18018
+61789 samannita                      sam123          54045
+61453 surrendran                     surren345       54045
+61425 janaki                         janu98          54045
+
+
+//DOCUMENT TABLE
+
+
+create table document(docid number(5) primary key,docFile BLOB,requestid number(6),empid number(5),docTypeId number(5),
+Foreign KEY (requestid) References verificationdetails(requestid));
+
