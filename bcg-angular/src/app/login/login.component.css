@@ -1,0 +1,122 @@
+.body{
+  overflow: hidden;
+}
+.banner-cont {
+    /* background-image: url("../assets/img/images2.jpg");  */
+     
+ background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  height: 50em;
+  background-size: cover
+  }
+  .image1{
+    /* background-image: url("bg12.jpg"); */
+    width: 5%;
+    height: 20%;
+    margin-top: 10%;
+    position: fixed;
+  }
+  
+  .content {
+    font-size: 30px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .sub-content {
+    font-size: 24px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+  /* .left-side{
+    
+ } */
+ 
+  .image{
+     
+      position: relative;
+      
+    
+      background-repeat: repeat-x;
+  
+     
+  }
+  
+  .card{
+    height: 420px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+ .input-group-prepend span{
+    width: 50px;
+     background-color: #FFC312;
+    color: black;
+     border:0 !important;
+    }
+   
+.body
+{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.btn
+{
+    margin-left: 7%;
+    width: 180px;
+    height:38px;
+}
+small.text-danger{
+font-size: 12px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#lcolor{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.textfeild{
+    width: 300px;
+}
+.login{
+    margin-top: 3%;
+   margin-left: 38%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .maindiv{
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 72%;
+  }
+  .mainheading{
+    width: 45%;
+    margin-top: 10%
+  }
+  .banner-caption{
+    margin-top: 10%;
+    width: 40%;
+  }
+  .container {
+    height: 75%;
+    align-content: center;
+    /* background-image: url("logo.JPG"); */
+    /* width: 520%; */
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+    position:fixed;
+    margin-left:5%;
+    margin-top:10%
+    /* box-sizing: content-box */
+  }
+  .form-contrl{
+   width:120%
+  }
+  button.btn.btn-primary{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }

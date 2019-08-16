@@ -1,0 +1,35 @@
+<div class="header">
+    <h1 class="employee">Employee Portal</h1>
+    <h3 class="logo">Welcome {{empName}}</h3>
+</div>
+<div class="cen">
+    <ul class="bar">
+        <li><a href="#" routerLink="/employee" routerLinkActive="active">Upload</a></li>
+        <li><a href="view" routerLink="view" routerLinkActive="active">View Document</a></li>
+    </ul>
+    <h1 class="heading">Employee Document Status</h1>
+</div>
+<div class="space">
+    <table class="table table-bordered">
+
+
+        <thead class="thead-dark">
+            <th>Document Type</th>
+            <th>Request Status</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let status of statusDetails; let i = index">
+                <td>{{status[i]}}</td>
+                <td>{{status[i+1]}}</td>
+            </tr>
+            <tr *ngFor="let status of statusDetails; let i = index">
+                <td>{{status[i+2]}}</td>
+                <td>{{status[i+3]}}</td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+
+</div>

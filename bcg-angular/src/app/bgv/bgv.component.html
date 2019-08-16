@@ -1,0 +1,68 @@
+<h1 class="center">BGV Team Portal</h1>
+
+<div class="Welcome">
+    <h4>Welcome {{empName}}</h4>
+</div>
+<form>
+
+    <div class="combo">
+        <label class="name">Select :</label>
+
+        <select [(ngModel)]="searchParameter" name="search" id="myselect">
+            <option class="dropdown-item" value=1>ID</option>
+            <option value=2>Name</option>
+        </select>
+
+
+
+        <input *ngIf="searchParameter==1" class="text" type="number" placeholder="Enter Id" name="eId" [(ngModel)]="id">
+        <input *ngIf="searchParameter==2" class="text" type="text" placeholder="Enter Name" name="eName"
+            [(ngModel)]="name">
+        <div *ngIf="showError" class="text-danger"><small>{{errorMsg}}</small></div>
+        <div *ngIf="showSuccessMsg"><small>Succuessfully verified</small></div>
+    </div>
+    <div class="button" align="center">
+        <button class="btn btn-primary" (click)="search()">Search</button>
+    </div>
+</form>
+
+
+
+<div>
+    <table class="table table-bordered" *ngIf="showTable">
+        <thead>
+            <tr class="centertable">
+
+                <th scope="col">Doc_Type</th>
+                <th scope="col">Download</th>
+                <th scope="col" colspan="2" width="20">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>
+                    <select (change)="onChange()" name="search" id="table_drop" [(ngModel)]="documentTypeId">
+                        <option class="dropdown-item" value="42012">Address</option>
+                        <option value="51012">Educational</option>
+                    </select>
+
+                </td>
+                <td class="text-center" name="education" *ngIf="documentTypeId==51012"><a
+                        href="http://3.92.213.155:8080/downloadFile/{{ documentId }}" class="button2"
+                        target="_blank">Education form</a></td>
+                <td class="text-center" name="address" *ngIf="documentTypeId==42012"><a
+                        href="http://3.92.213.155:8080/downloadFile/{{ documentId }}" class="button2"
+                        target="_blank">Address form</a></td>
+
+                <td class="text-center">
+                    <input [disabled]="buttondisable" (click)="approve()" class="btn btn-primary btn-xs" type="button"
+                        value="Approve"></td>
+                <td class="text-center"><input (click)="reject()" [disabled]="buttondisable"
+                        class="btn btn-primary btn-xs" type="button" value="Reject"></td>
+
+
+            </tr>
+
+        </tbody>
+    </table>

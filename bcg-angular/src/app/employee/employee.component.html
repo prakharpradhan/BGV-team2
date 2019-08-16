@@ -1,0 +1,35 @@
+<div class="header">
+    <h1 class="employee">Employee Portal</h1>
+    <h3 class="logo">Welcome {{empName}}</h3>
+</div>
+<div class="bar">
+    <ul>
+        <li><a href="#" routerLink="/employee" routerLinkActive="active">Upload</a></li>
+        <li><a href="view" routerLink="view" routerLinkActive="active">View Document</a></li>
+    </ul>
+</div>
+<div id="grad">
+    <div>
+        <form (ngSubmit)="onSubmit()">
+            <div class="center">
+                <div class="education"> Select Document Type:
+                    <select placeholder="Please Select" [(ngModel)]="documentType" name="documentType">
+                        <option value="1">Education</option>
+                        <option value="2">Address Proof</option>
+                    </select>
+                    <input type="file" class="files" (change)="onFileSelected($event)">
+                    <button class="btn btn-primary" [disabled]="flag" type="button" (click)="onUpload()">Upload</button>
+                </div>
+                <span class="required">(* Only jpg and png types are allowed)</span>
+            </div>
+            <div *ngIf="check" align="center" class="container form-group">
+                <div *ngFor="let message of uploadMessage">
+                    <h2 class="msg">{{ message }}</h2>
+                </div>
+                <div>
+                    <small *ngIf="errorflag" class="text-danger">{{errorMsg}}</small>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
